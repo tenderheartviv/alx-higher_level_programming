@@ -1,5 +1,9 @@
-#!/usr/bin/python3
-str = "Python is an interpreted, interactive, object-oriented programming\
-        language that combines remarkable power with very clear syntax"
-str = str[39:67] + str[107:112] + str[:6]
-print(str)
+class MyString:
+    def __init__(self, value):
+        self.value = value
+
+    def __str__(self):
+        return self.value
+
+obj = MyString("object-oriented programming with Python")
+print(obj)
