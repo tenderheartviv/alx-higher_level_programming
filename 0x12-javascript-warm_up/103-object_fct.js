@@ -5,7 +5,7 @@ const myObject = {
 };
 console.log(myObject);
 /*
-YOUR CODE HERE
+const fs = require('fs');
 */
 myObject.incr();
 console.log(myObject);
