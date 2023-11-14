@@ -5,7 +5,7 @@ const myObject = {
 };
 console.log(myObject);
 /*
-const fs = require('fs');
+add a new function 'incr';that increments the integer value 12;
 */
 myObject.incr();
 console.log(myObject);
